@@ -38,5 +38,5 @@ def dec_bg():
     except subprocess.CalledProcessError as e:
         print(f"Command failed with error: {e}")
 
-inc_bg()
+dec_bg()
 
