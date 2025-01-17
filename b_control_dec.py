@@ -23,7 +23,7 @@ def read_tmp_bg(file_path):
         notify(e)
 
 
-def inc_bg():
+def dec_bg():
     init_value = read_tmp_bg(temp_dir)
     curr_value = 0
     if init_value and init_value >= 10:
